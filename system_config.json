@@ -1,0 +1,26 @@
+
+{
+    "system_settings": {
+        "attendance_window": {
+            "start_time": "09:30:00",
+            "end_time": "10:00:00"
+        },
+        "face_recognition": {
+            "confidence_threshold": 0.6,
+            "num_training_images": 50,
+            "face_detection_scale_factor": 1.1,
+            "face_detection_min_neighbors": 5,
+            "face_size": [100, 100]
+        },
+        "emotion_detection": {
+            "model_input_size": [48, 48],
+            "emotions": ["angry", "disgust", "fear", "happy", "neutral", "sad", "surprise"],
+            "confidence_threshold": 0.5
+        },
+        "data_storage": {
+            "save_format": ["csv", "xlsx"],
+            "backup_enabled": true,
+            "log_level": "INFO"
+        }
+    }
+}

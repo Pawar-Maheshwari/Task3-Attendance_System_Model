@@ -1,0 +1,11 @@
+opencv-python
+numpy
+pandas
+scikit-learn
+tensorflow
+deepface
+Pillow
+openpyxl
+matplotlib
+ipykernel
+face_recognition
